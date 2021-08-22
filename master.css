@@ -1,0 +1,109 @@
+@import url('https://fonts.google.com/specimen/Red+Hat+Display');
+
+.container{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    border-radius: 18px;
+    font-family: 'Red Hat Display', sans-serif;
+    box-sizing: content-box;
+    background-color:whitesmoke;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+.box{
+    width: 430px;
+    margin-top: 40px;
+    box-shadow: 0px 3px 17px grey;
+}
+
+.container1{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-content: space-around;
+    align-items:center;
+    padding-left: 13px;
+    padding-right: 20px;
+    margin-block-end: 12px;
+    border-radius: 15px;
+    background-color:hsl(245, 100%, 95%);
+    width: 270px;
+}
+
+
+.container2{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+    margin-left: 15px;
+    margin-right:55px;
+    margin-top: 22px;
+}
+
+.item2{
+    padding-top: 5px;
+    font-size: 23px;
+    font-weight: 700;
+    margin-block-end: 15px;
+    margin-block-start: 22px;
+}
+
+.item3{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    margin-block-start: 3px;
+    
+}
+.bouton{
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    padding:15px 100px;
+    border-radius: 10px;
+    border:none;
+    font-weight: 700;
+    width: 350px;
+    margin-top: 5px;
+    box-shadow: 0px 6px 25px grey;
+}
+
+.item01{
+    font-weight: 700;
+}
+
+.lien{
+    font-weight:700;
+  
+}
+.image{
+    width: 430px;
+    border-top-right-radius: 18px;
+    border-top-left-radius: 18px;
+}
+.liens{
+    font-weight: 900;
+    color:grey;
+    padding:15px 100px;
+    border-radius: 10px;
+    border:none;
+    font-weight: 700;
+    width: 350px;
+    margin-bottom: 20px;
+    margin-top: 2px;
+    font-size: 16px;
+}
+
+.back{
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: inherit;
+    background-color: hsl(225, 100%, 94%);
+                      
+}
